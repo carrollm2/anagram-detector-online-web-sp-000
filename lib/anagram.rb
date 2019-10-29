@@ -16,7 +16,7 @@ class Anagram
         if element_array == word_array
           anagrams_found.push(element)
         elsif element_array.sort == word_array.sort
-          anagrams_found.push(element)            
+          anagrams_found.push(element)
         end
       end
     end
